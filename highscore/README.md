@@ -8,8 +8,17 @@ This small project is made to learn how to use Kaitai.
 
 ### Installation
 
-`pip install kaitaistruct`
-`ksc -t python highscore.ksy`
+Via python:
+```
+pip install kaitaistruct
+ksc -t python highscore.ksy
+```
+
+Via docker:
+```
+docker build -t kaitai-docker .
+docker run -v "$(pwd):/root:rw" kaitai-docker ksc -t python highscore.ksy
+```
 
 ### Usage
 
