@@ -10,12 +10,14 @@ This small project is made to learn how to use Kaitai.
 
 Via pip:
 ```
+cd highscore
 pip install kaitaistruct
 ksc -t python highscore.ksy
 ```
 
 Via docker:
 ```
+cd highscore
 docker build -t kaitai-docker .
 docker run -v "$(pwd):/root:rw" kaitai-docker ksc -t python highscore.ksy
 ```
