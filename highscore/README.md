@@ -6,9 +6,9 @@ Pharaoh highscore file format description.
 
 This small project is made to learn how to use Kaitai.
 
-### Installation
+### Build
 
-Via python:
+Via pip:
 ```
 pip install kaitaistruct
 ksc -t python highscore.ksy
